@@ -11,7 +11,7 @@ public class Dbconnection {
 		try {
 			
 			Class.forName("com.mysql.jdbc.Driver");
-			connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/atm","root","rootroot");
+			connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/***","****","********");
 			//connection=DriverManager.getConnection("jdbc:mysql://mysql15.000webhost.com:3306/id10007605_trainingjava","id10007605_gurseerat","12345678");
 			
 			System.out.println("Connection ready "+ connection);
